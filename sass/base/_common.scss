@@ -39,7 +39,7 @@ button {
 }
 
 /* Logo */
-.nav-logo {
+.nav__logo {
     font-family: Raleway;
     font-weight: 700px;
     font-size: 26px;
@@ -47,12 +47,12 @@ button {
     color: var(--accent-color);
 }
 
-.logo-header {
+.logo__header {
 
     color: var(--logo-color);
 }
 
-.logo-footer {
+.logo__footer {
 
     color: var(--background-color);
     margin-bottom: 20px;

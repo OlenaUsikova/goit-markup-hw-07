@@ -24,6 +24,10 @@
     outline: transparent;
     fill: var(--anim-icon);
     transition: var(--anim-icon);
+    &:hover,
+   &:focus {
+        border: 1px solid var(--accent-color);
+    }
 }
 
 
@@ -36,9 +40,4 @@
 .client__link:hover .clients__icon,
 .client__link:focus .clients__icon {
     fill: var(--accent-color);
-}
-
-.client__link:hover,
-.client__link:focus {
-    border: 1px solid var(--accent-color);
 }
